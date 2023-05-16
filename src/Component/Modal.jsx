@@ -13,9 +13,9 @@ export default class Modal extends Component {
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <p className='fs-5'>{content.name}</p>
-              <p className='fs-5'>{content.description}</p>
-              <p className='fs-5 ' style={{fontStyle:'italic'}}>Quantity: {content.quantity}</p>
+              <p className='fs-5 fw-bold'>Shoes name: {content.name}</p>
+              <p className='fs-5'>Description: {content.description}</p>
+              <p className='fs-5 ' style={{fontStyle:'italic'}}>In Stock: {content.quantity}</p>
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
